@@ -14,8 +14,8 @@ body {
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --border-color: #7b229145;
+    --text-decoration-color: #8c2727;
 }
 
 .container {
@@ -135,6 +135,10 @@ body {
   }
 
 /*Intro and info skills styles*/
+.list{
+    margin-left: 15px;
+}
+
 .intro {
     display: flex;
     justify-content: start;
@@ -161,7 +165,27 @@ body {
     text-align: justify;
 }
 
+.skills-main_container{
+    display: flex;
+    text-align: center;
+    align-self: center;
+    margin: 40px;
+}
+
+.skills-sub_container{
+    width: 50%;
+}
+.skills-sub_container-bonus{
+    width: 100%;
+}
+
 .skills__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.skills__subtitle{
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
